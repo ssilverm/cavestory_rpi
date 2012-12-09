@@ -1,0 +1,51 @@
+Loading settings...
+videoinfo: desktop bpp 16
+SDL_SetVideoMode: 320x240 @ 16bpp
+SIFLoader::LoadHeader: read index of 8 sections
+Loading SIF section 1 from address 004d
+Loading SIF section 2 from address 044c
+SIFSpritesSect: loading 490 sprites
+fonts: using bitmapped from smalfont.bmp
+sslib: initilization was successful.
+Loading Sound FX...
+LoadFXCache: restoring pxts from cache
+Calculating pitch scale...
+-- Drums loaded from cache
+tsc_load: loading 'data/Head.tsc' to page 0
+tsc_load: loading 'data/ArmsItem.tsc' to page 2
+tsc_load: loading 'data/StageSelect.tsc' to page 3
+Reading npc.tbl...
+InitList::CallFunctions(000f1888): executing 61 functions...
+initslopetable: generating slopetables.
+initmapfirsttime: loading tilekey.dat.
+Setting tick function to type 1 param 0
+Setting tick function to type 6 param 0
+Entering main loop...
+ >> Entering stage 72: 'u'.
+load_map: level size 21x16
+load_map: 'data/Stage/Kings.pxm' loaded OK! - 21x16
+load_pxa: reading in data/Stage/White.pxa
+load_entities: reading in data/Stage/Kings.pxe
+tsc_load: loading 'data/Stage/Kings.tsc' to page 1
+StageBossManager::SetType(0)
+-- Starting on-entry script 100
+  - Started script 0100
+0100:0  002c <KEY 
+0100:1  0032 <MNA 
+0100:2   0050
+0100:5   0001
+  - Stopped script 0100
+Setting tick function to type 7 param 0
+niku_load: couldn't open file '290.rec'
+ >> music(24)
+./org/theme.org: Org-02 detected
+ >> Entering stage 0: 'Null'.
+load_map: level size 21x20
+load_map: 'data/Stage/0.pxm' loaded OK! - 21x20
+load_pxa: reading in data/Stage/0.pxa
+load_entities: reading in data/Stage/0.pxe
+tsc_load: loading 'data/Stage/0.tsc' to page 1
+StageBossManager::SetType(0)
+Setting pause: type 8 param 0
+Setting tick function to type 1 param 0
+Graphics::Close()
